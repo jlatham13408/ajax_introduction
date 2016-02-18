@@ -1,7 +1,7 @@
 var weatherData = {};
 $(document).ready(function(){
   var baseUrl = 'https://api.forecast.io/forecast/';
-
+  var name = "Jonnel Latham";
   $('#get-weather').on('click', getWeather);
 
 
